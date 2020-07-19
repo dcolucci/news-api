@@ -1,6 +1,6 @@
 const { fetchTopHeadlines } = require('./fetchers.js');
 
-jest.mock('./newsOrgRequest.js')
+jest.mock('./newsOrgRequest.js');
 
 describe('fetchTopHeadlines', () => {
   test('it returns top headlines result', async () => {
