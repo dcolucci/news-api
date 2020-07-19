@@ -1,0 +1,1 @@
+module.exports = () => Promise.resolve({ articles: [0,1] });
