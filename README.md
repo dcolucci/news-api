@@ -30,3 +30,11 @@ Fetching data from the News Org API requires creating an account and generating 
     ```
 
  1. Visit the app running at [localhost:8000](http://localhost:8000)
+
+### Testing
+
+Run unit tests:
+
+```sh
+$ npm run test
+```
